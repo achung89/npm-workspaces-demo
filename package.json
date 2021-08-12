@@ -1,0 +1,29 @@
+{
+  "name": "npm-workspaces-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "./packages/workspace-a"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achung89/npm-workspaces-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achung89/npm-workspaces-demo/issues"
+  },
+  "homepage": "https://github.com/achung89/npm-workspaces-demo#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.16.0"
+  }
+}
