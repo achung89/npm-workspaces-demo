@@ -13,7 +13,7 @@ To run a command in all workspaces, use the `-ws` flag instead of `-w` flag.
 
 ## create a workspace
 
-1. Create a folder called `workspace-b` in `packages`
-2. Add `./packages/workspace-a` to "workspaces" attribute in the root of package-json. This adds the `workspace-b` folder to the workspace
-3. Run `npm init -w ./packages/workspace-a` to create a package.json in `workspace-b`
-4. Install a package in the workspace using `npm install -w ./packages/workspace-b <package name>`
+1. Create a folder called `workspace-c` in `packages`
+2. Run `npm init -w workspace-c` to create a package.json in `workspace-c`
+3. Install a package in the workspace using `npm install -w .workspace-c <package name>`
+4. Run a script in the workspace using `npm run <script> -w workspace-c`
